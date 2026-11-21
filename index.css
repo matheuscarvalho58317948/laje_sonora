@@ -1,14 +1,14 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: 0;
+    box-sizing: border-box;
 }
 
 :root {
     --concreto: #E2DFD8;
     --concreto-escuro: #CBC7BE;
     --tinta: #0F1E3D;
-    --cáixa-dagua: #1F5FBF;
+    --caixa-dagua: #1F5FBF;
     --fita: #F3C623;
     --branco: #FFFFFF;
 
@@ -97,7 +97,7 @@ h1,h2,h3 {
 }
 
 .cartaz-lateral {
-    background: var(--tinta);
+    background: var(--fita);
     flex: 1;
     display: flex;
     flex-direction: column;
